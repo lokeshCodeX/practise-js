@@ -1,0 +1,102 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.user-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+}
+
+.user-container input {
+  padding: 10px;
+  flex: 1; /* This makes input take more width */
+}
+
+.user-container button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.stats-container {
+  margin-top: 30px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.progress-item {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* <-- This makes it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.easy-progress, .medium-progress, .Hard-progress {
+  text-align: center;
+}
+
+.easy-progress {
+  background-color: #d4edda;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.medium-progress {
+  background-color: #ffeeba;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hard-progress {
+  background-color: #f8d7da;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-item span {
+  font-weight: bold;
+}
+
