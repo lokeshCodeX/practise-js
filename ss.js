@@ -185,5 +185,8 @@
 
 
 
-let symbol1 = Symbol("Geeks") 
-console.log(symbol1)
+// let symbol1 = Symbol("Geeks") 
+// console.log(symbol1)
+
+//->closure 
+console.log("now we stert to learn node.js")
